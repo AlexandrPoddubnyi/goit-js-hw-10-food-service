@@ -9,7 +9,7 @@ const checkbox = document.querySelector(".theme-switch__toggle");
 
 if (!localStorage.getItem('class')) {
   body.classList.add(Theme.LIGHT);
-  localStorage.setItem('class', theme.LIGHT)
+  localStorage.setItem('class', Theme.LIGHT)
 } else {
   body.classList.add(localStorage.getItem('class'))
   if (localStorage.getItem('class') === Theme.LIGHT) {

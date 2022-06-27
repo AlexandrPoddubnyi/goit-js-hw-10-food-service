@@ -20,8 +20,11 @@
   "homepage": "https://AlexandrPoddubnyi.github.io/goit-js-hw-10-food-service",
   "devDependencies": {
     "parcel": "^2.3.2",
+    "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^1.7.2",
     "sass": "^1.49.7"
   },
